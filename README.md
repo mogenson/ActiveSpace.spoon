@@ -1,4 +1,4 @@
-# ActiveSpace.Spoon
+# ActiveSpace.spoon
 HammerSpoon menu bar item to show active Mission Control space.
 
 Built-in and external display names are shown. Spaces are listed in order per display. Active space is square bracketed.
