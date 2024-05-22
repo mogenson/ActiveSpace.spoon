@@ -38,16 +38,24 @@ function ActiveSpace:start()
     -- print(title)
     self.menu:setTitle(title)
 
-    self.watcher = hs.spaces.watcher.new(function(space)
+    self.space_watcher = hs.spaces.watcher.new(function()
         self.menu:setTitle(build_title())
-    end)
-    self.watcher:start()
+    end):start()
+
+    self.screen_watcher = hs.screen.watcher.new(function()
+        self.menu:setTitle(build_title())
+    end):start()
 end
 
 function ActiveSpace:stop()
-    if self.watcher then
-        self.watcher:stop()
-        self.watcher = nil
+    if self.space_watcher then
+        self.space_watcher:stop()
+        self.space_watcher = nil
+    end
+
+    if self.screen_watcher then
+        self.screen_watcher:stop()
+        self.screen_watcher = nil
     end
 
     if self.menu then
