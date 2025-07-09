@@ -18,7 +18,7 @@ local function build_title()
     local active_spaces = hs.spaces.activeSpaces()
     for _, screen in ipairs(hs.screen.allScreens()) do
         if not ActiveSpace.compact then
-	          table.insert(title, screen:name() .. ": ")
+            table.insert(title, screen:name() .. ": ")
         end
         local screen_uuid = screen:getUUID()
         local active_space = active_spaces[screen_uuid]
