@@ -12,3 +12,9 @@ Example config:
 ActiveSpace = hs.loadSpoon("ActiveSpace")
 ActiveSpace:start()
 ```
+
+## Compact mode
+
+Click the menubar to switch to a compact view without display names.
+
+Or, set `ActiveSpace.compact = true` in the HammerSpoon config. The default is false.
