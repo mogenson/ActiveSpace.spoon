@@ -3,7 +3,7 @@ ActiveSpace.__index  = ActiveSpace
 
 -- Metadata
 ActiveSpace.name     = "ActiveSpace"
-ActiveSpace.version  = "0.2"
+ActiveSpace.version  = "0.3?"
 ActiveSpace.author   = "Michael Mogenson"
 ActiveSpace.homepage = "https://github.com/mogenson/ActiveSpace.spoon"
 ActiveSpace.license  = "MIT - https://opensource.org/licenses/MIT"
@@ -39,6 +39,9 @@ end
 
 function ActiveSpace:start()
     self.menu = hs.menubar.new()
+    -- Set an autosave name so macOS remembers the position after reloads :D
+    self.menu:autosaveName("ActiveSpace")
+    
     local title = build_title()
     -- print(title)
     self.menu:setTitle(title)
