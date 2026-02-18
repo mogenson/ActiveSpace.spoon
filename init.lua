@@ -3,7 +3,7 @@ ActiveSpace.__index  = ActiveSpace
 
 -- Metadata
 ActiveSpace.name     = "ActiveSpace"
-ActiveSpace.version  = "0.3?"
+ActiveSpace.version  = "0.3"
 ActiveSpace.author   = "Michael Mogenson"
 ActiveSpace.homepage = "https://github.com/mogenson/ActiveSpace.spoon"
 ActiveSpace.license  = "MIT - https://opensource.org/licenses/MIT"
