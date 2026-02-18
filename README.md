@@ -1,5 +1,5 @@
 # ActiveSpace.spoon
-HammerSpoon menu bar item to show active Mission Control space.
+HammerSpoon menu bar item to show active Mission Control space, now with a fix to keep its location persistent across reboots/relaunches/reloads ;)
 
 Built-in and external display names are shown. Spaces are listed in order per display. Active space is square bracketed.
 
