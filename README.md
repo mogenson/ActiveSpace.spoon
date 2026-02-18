@@ -1,7 +1,7 @@
 # ActiveSpace.spoon
 HammerSpoon menu bar item to show active Mission Control space.
 
-Built-in and external display names are shown. Spaces are listed in order per display. Active space is square bracketed. Menubar location persistent across hammerspoon reloads.
+Built-in and external display names are shown. Spaces are listed in order per display. Active space is square bracketed. Menubar location is persistent across hammerspoon reloads.
 
 <img width="716" alt="ActiveSpace Menu" src="https://github.com/mogenson/ActiveSpace.Spoon/assets/900731/2ea56416-47bc-4fdd-8e16-950f23f57edd">
 
